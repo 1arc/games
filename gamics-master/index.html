@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jet Srike by GamesArc</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+        <a href="https://1arc.github.io/games" class="logo">GamesArc</a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#download" class="navbar-link skewBg" data-nav-link>Download</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#features" class="navbar-link skewBg" data-nav-link>Features</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#footer" class="navbar-link skewBg" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Gamers! Presenting</p>
+
+            <h1 class="h1 hero-title">
+              Jet <span class="span">Strike</span>
+            </h1>
+
+            <p class="hero-text">
+              Unleash the fury of aerial combat across mobile and PC platforms! Become a master fighter pilot in explosive battles!
+            </p>
+
+            <div class="btn-container">
+              <a href="jet.html"><button class="btn skewBg">Play Now</button></a>
+              <a href="#download"><button class="btn skewBg">Download</button></a>  
+            </div>
+
+            <style>
+              .btn-container {
+                display: flex;
+                margin-top: 20px;
+              }
+
+              .btn {
+                margin: 0 25px;
+              }
+
+              /* Media query for mobile devices */
+              @media (max-width: 768px) {
+                .btn-container {
+                  flex-direction: column;
+                  align-items: center;
+                }
+
+                .btn {
+                  margin: 10px 0;
+                }
+              }
+            </style>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #Download
+      -->
+
+      <section class="section shop" id="download" aria-label="shop"
+        style="background-image: url('./assets/images/shop-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Download <span class="span">Jet Strike</span>
+          </h2>
+
+          <p class="section-text">
+            Download Jet Strike on mobile devices
+          </p>
+
+          <div class="download-btns">
+            <a href="jetstrike.apk" class="download-btn"
+              target="_blank" download>
+              Download for Android
+            </a>
+            <a class="download-btn" alt="Currently Unavailable" style="cursor: not-allowed;">
+              Download for iOS - Coming Soon <br> (Try Browser until then!)
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #Features
+      -->
+
+      <section class="section shop" id="features" aria-label="shop"
+        style="background-image: url('./assets/images/shop-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Jet Strike <span class="span">Exclusives</span>
+          </h2>
+
+          <p class="section-text">
+            Enjoy three exciting classes with two seasons each, and five thrilling levels in every season. Upgrade your
+            jets and skins for added adventure, and reset the game for endless fun!
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/missions.png" width="300" height="260" loading="lazy" alt="Missions"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a class="card-badge skewBg">Missions</a>
+
+                  <h3 class="h3">
+                    <a class="card-title">3 Classes, 2 Seasons and <br> 5 Levels</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/jet-fighters.png" width="300" height="260" loading="lazy" alt="Jet Fighters"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a class="card-badge skewBg">Jet Fighters</a>
+
+                  <h3 class="h3">
+                    <a class="card-title">12 Different Jet Fighters</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/upgrades.png" width="300" height="260" loading="lazy" alt="Upgrades"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a class="card-badge skewBg">Upgrades</a>
+
+                  <h3 class="h3">
+                    <a class="card-title">Upgrade your Fighter Jets</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/models.png" width="300" height="260" loading="lazy" alt="Models"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a class="card-badge skewBg">Models</a>
+
+                  <h3 class="h3">
+                    <a class="card-title">Different Models for users</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top" style="margin-top: 50px;">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="https://1arc.github.io/games" class="logo">GamesArc</a>
+
+          <p class="footer-text">
+            GamesArc is a Game service provided by Arc
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a class="item-text">Socials : In the Follow Us section in right</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-open"></ion-icon>
+              </div>
+
+              <a href="mailto:team.arcc.1@gmail.com" class="item-text">Email : team.arcc.1@gmail.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!--GitIgnore-->
+        <ul class="footer-list">
+
+          <li>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"></a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"></a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"></a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"></a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"></a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+          </li>
+
+          <li>
+          </li>
+
+          <li>
+          </li>
+
+          <li>
+          </li>
+
+          <li>
+          </li>
+
+          <li>
+          </li>
+
+        </ul>
+
+        <!--GitIgnore-->
+
+        <div class="footer-wrapper">
+
+          <div class="social-wrapper">
+
+            <p class="footer-list-title">Follow Us</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="https://instagram.com/officialarcc" class="social-link" style="background-color: #ba1190">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://t.me/archubs" class="social-link" style="background-color: #55acee">
+                  <ion-icon name="call-outline"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 GamesArc. All Right Reserved by <a href="https://1arc.github.io" class="copyright-link">Arc</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
